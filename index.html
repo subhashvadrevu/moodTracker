@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <p>What's your mood today ?</p>
+        <div class="mood-emojis">
+            <div id="happy">😀</div>
+            <div id="sad">😞</div>
+            <div id="neutral">😐</div>
+            <div id="excited">😄</div>
+        </div>
+        <div>
+            <p>Select any date you want <br> Today is selected by default</p>
+            <input type="date" name="cal" id="cal">
+        </div>
+        <button onclick="saveMyMood()">Save my mood</button>
+        <br>
+        <button onclick="showPrevMoods()">Show Previous Moods</button>
+        <div id="prevMoods"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

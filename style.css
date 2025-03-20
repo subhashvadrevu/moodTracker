@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mood-emojis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#happy:hover {
+    cursor: pointer;
+}
+#excited:hover {
+    cursor: pointer;
+}
+#neutral:hover {
+    cursor: pointer;
+}
+#sad:hover {
+    cursor: pointer;
+}
